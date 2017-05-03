@@ -27,7 +27,7 @@ sim = rebound.Simulation()
 ```
 Note: 'sim' is just the name of the object we created to store the rebound Simulation object, it could be called anything. 
 
-Next we set the units so Rebound knows how to interpret our inputs. We do this by calling methods of the sim object we just created. 
+Next we set the units so Rebound knows how to interpret our inputs. We do this by setting the value of sim.units, sim.units is not a method but a public variable that we can edit. Methods do things, variables store things. 
 
 ```python
 sim.units = ('yr', 'AU', 'Msun')
