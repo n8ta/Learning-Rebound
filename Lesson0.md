@@ -10,7 +10,8 @@ From there open on a command prompt (windows) or terminal (mac) and type "python
 To run a .py file from your command line interfact (command prompt or terminal) you need to navigate to the directory containing †he file. The basic navigation command is change directory or "cd". Here is how you use it:
 
 cd .. (go up one directory)
-cc /directoryname/ (enter directory)
+
+cd /directoryname/ (enter directory)
 
 Once you are in the directory of a .py file you've created you type:
 python filename.py
