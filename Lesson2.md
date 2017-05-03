@@ -41,3 +41,7 @@ Finally we run our simulation, this is commonly called 'integrating' and you aga
 tmax = 10
 sim.integrate(tmax)
 ```
+The simulation will then run until completion. This can sometimes take awhile, the following increase the time for the simulation to finish:
+- Number of bodies
+- Speed of bodies
+- Closeness of bodies
