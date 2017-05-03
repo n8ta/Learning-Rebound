@@ -20,4 +20,4 @@ VelocityOfM2 = (G*(M1+M2)/a)**.5 * (((1.0+e)/(1.0-e)))**.5 / (1.0+q2)
 ```
 
 So now we have our initial conditions for a system that looks like this:
-![2bodyimage](https://github.com/UncleIroh/Learning-Rebound/blob/master/2Body.png?raw=true =500x500"")
+![2bodyimage](https://github.com/UncleIroh/Learning-Rebound/blob/master/2Body.png?raw=true)
