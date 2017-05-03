@@ -1,6 +1,6 @@
 # Lesson 0 - The Very Basics of Python
 
-Well hello, if you have any python experience to Lesson 2.
+Well hello, if you have any python experience go to Lesson 1.
 
 Python is a programming langauge that is designed to very straight forward to use. To run python you will need to install it. I recommend the anaconda python package manager, it comes preinstalled with most of what we'll be using.
 https://www.continuum.io/downloads
