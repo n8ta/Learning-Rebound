@@ -19,4 +19,4 @@ RadiusOfM2 = (1.0-e)*a/(1.0+q2)
 VelocityOfM2 = (G*(M1+M2)/a)**.5 * (((1.0+e)/(1.0-e)))**.5 / (1.0+q2)
 
 So now we have our initial conditions for a system that looks like this:
-![Alt text](2body.png?raw=true)
+<img src=2body.png />
