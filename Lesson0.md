@@ -2,7 +2,7 @@
 
 Python is a programming langauge that is designed to very straight forward to use. To run python you will need to install it. I recommend the anaconda python package manager, it comes preinstalled with most of what we'll be using.
 https://www.continuum.io/downloads. You will also need to install rebound. You can install rebound with the pip command:
-```
+```bash
 pip install rebound
 ```
 
