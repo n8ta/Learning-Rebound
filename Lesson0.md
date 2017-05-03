@@ -1,9 +1,12 @@
 # Lesson 0 - The Very Basics of Python
 
-Well hello, if you have any python experience go to Lesson 1.
-
 Python is a programming langauge that is designed to very straight forward to use. To run python you will need to install it. I recommend the anaconda python package manager, it comes preinstalled with most of what we'll be using.
-https://www.continuum.io/downloads. You will also need to install rebound. 
+https://www.continuum.io/downloads. You will also need to install rebound. You can install rebound with the pip command:
+```
+pip install rebound
+```
+
+Rebound can also be found here: https://github.com/hannorein/rebound
 
 To use python open a command prompt (windows) or terminal (mac) and type "conda install and type "python", if you installed this correctly your screen should show a >>> prompt and you can type python code directly into the termainal. This mode of writing python is mostly for testing and most coding is done in a .py file to make editting easier.
 
