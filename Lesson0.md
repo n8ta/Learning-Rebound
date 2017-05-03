@@ -6,10 +6,12 @@ Python is a programming langauge that is designed to very straight forward to us
 https://www.continuum.io/downloads. You will also need to install rebound. Open a command prompt (windows) or terminal (mac) and type "conda install and type "python", if you installed this correctly your screen should show a >>> prompt and you can type python code directly into the termainal. This mode of writing python is mostly for testing and most coding is done in a .py file to make editting easier.
 
 To run a .py file from your command line interfact (command prompt or terminal) you need to navigate to the directory containing †he file. The basic navigation command is change directory or "cd". Here is how you use it:
-```cd
+```bash
+cd
 ```
 (go up one directory)
-```cd /directoryname/ 
+```bash
+cd /directoryname/ 
 ```
 (enter directory)
 
