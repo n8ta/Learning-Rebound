@@ -2,7 +2,19 @@
 
 Using the code from Lesson 1 that generated initial conditions we will create a rebound simulation with those two objects.
 We will be assuming these initial values are know in this lesson:
-M1 M2 V1 V2
+```python
+# Constants
+G = 39.43163873354829472 (I'll explain why this isn't 6.67e-11 later)
+M1 = 1
+M2 = 10
+q1 = M1/M2
+q2 = M2/M1
+# Generation Initial Conditions
+RadiusOfM1 = (1.0-e)*a/(1.0+q1)
+VelocityOfM1 = (G*(M1+M2)/a)**.5 * (((1.0+e)/(1.0-e)))**.5 / (1.0+q1)
+RadiusOfM2 = (1.0-e)*a/(1.0+q2)
+VelocityOfM2 = (G*(M1+M2)/a)**.5 * (((1.0+e)/(1.0-e)))**.5 / (1.0+q2)
+```
 
 Rebound is a module, that said you must import it into python:
 ```python
