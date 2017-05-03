@@ -42,6 +42,6 @@ tmax = 10
 sim.integrate(tmax)
 ```
 The simulation will then run until completion. This can sometimes take awhile, the following increase the time for the simulation to finish:
-- Number of bodies
-- Speed of bodies
-- Closeness of bodies
+- Number of bodies (more bodies take more time than fewer)
+- Speed of bodies (faster takes more time than slower)
+- Closeness of bodies (closer takes more time than farther)
