@@ -6,13 +6,13 @@ We start with a few givens the mass of each body (M1,M2), the eccentricity of th
 
 Here's how that would look in python:
 
-# # # Constants # # #
+# # Constants
 G = 39.43163873354829472 (I'll explain why this isn't 6.67e-11 later)
 M1 = 1
 M2 = 10
 q1 = M1/M2
 q2 = M2/M1
-# # # Generation Initial Conditions # # #
+# # Generation Initial Conditions
 RadiusOfM1 = (1.0-e)*a/(1.0+q1)
 VelocityOfM1 = (G*(M1+M2)/a)**.5 * (((1.0+e)/(1.0-e)))**.5 / (1.0+q1)
 RadiusOfM2 = (1.0-e)*a/(1.0+q2)
