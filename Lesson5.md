@@ -34,3 +34,5 @@ plt.show()
 ```
 Below are two images one without the commented lines and one with so you can see the difference with and without limits/titles.
 ![Comparison](https://raw.githubusercontent.com/UncleIroh/Learning-Rebound/master/comp.png)
+
+[Continue to Lesson 6](https://github.com/UncleIroh/Learning-Rebound/blob/master/Lesson6.md)
