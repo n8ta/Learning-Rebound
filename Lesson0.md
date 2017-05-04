@@ -42,6 +42,13 @@ print(listNameHere[0])
 ```
 This will return  
 "item 0 this is a string because it's in quotes"
-Strings start at index 0, what we would normally think of as item 1 in a list is really string[0]. 
+Strings start at index 0, what we would normally think of as item 1 in a list is really string[0].
+
+## Commenting
+```python
+print("Most lines are run in python")
+# But lines starting with a # are commented and ignored.
+# Commenting your code is useful to explain what it does when you will be sharing it with others.
+# It is bad form to publish uncommented code.
 
 [Continue to Lesson 1](https://github.com/UncleIroh/Learning-Rebound/blob/master/Lesson1.md)
