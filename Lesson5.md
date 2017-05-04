@@ -17,7 +17,7 @@ plt.show()
 ![matplotlib graph](https://github.com/UncleIroh/Learning-Rebound/blob/master/fig.png?raw=true)
 
 Next let's leanrn about axes, the key elements are labels, tick marks, titles, and bounds.
-The pyplot (plt) methods for modifying axes limits are .ylim(ymin,ymax) and .xlim(xmin,xman). Be careful when setting limits it can make importance data not visible, it's best to take a broad view and only set limits manually when you are sure you know what is going on. 
+The pyplot (plt) methods for modifying axes limits are .ylim(ymin,ymax) and .xlim(xmin,xman). Be careful when setting limits it can make importance data not visible, it's best to take a broad view and only set limits manually when you are sure you know what is going on. To add a title to your graph use the .title() method, it accepts a string as do .xlabel() and .ylabel() which label the x and y axes.
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
@@ -32,6 +32,5 @@ plt.plot(xlist,ylist,"ro",markersize=6)
 plt.show()
 
 ```
-Below are two images one without the commented lines and one with so you can see the difference with and without limits. 
-
+Below are two images one without the commented lines and one with so you can see the difference with and without limits/titles.
 ![Comparison](https://raw.githubusercontent.com/UncleIroh/Learning-Rebound/master/comp.png)
