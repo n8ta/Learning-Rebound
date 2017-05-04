@@ -39,6 +39,6 @@ Final note for matplotlib, sometimes your axes can make your images looked warpe
 ```python
 plt.axis('equal')
 ```
-to every plot before displaying it.
+to every plot that has positions on the and x y axes, on time vs anything plots this is not necessary.
 
 [Continue to Lesson 6](https://github.com/UncleIroh/Learning-Rebound/blob/master/Lesson6.md)
