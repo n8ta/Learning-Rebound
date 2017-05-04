@@ -31,7 +31,7 @@ planet0 = sim.particles[0]
 print(planet0.vx,planet0.vy,planet0,vz)
 ```
 
-planet0.vx calls the vx variable of the planet0 object (of type rebound.simulation.particle). You can extract the following variables from particle objects. They will return the values at current integration (time) of the simulation. If you want older various you need to save them periodicly this will be covered next.
+planet0.vx calls the vx variable of the planet0 object (of type rebound.simulation.particles). You can extract the following variables from particle objects. They will return the values at current integration (time) of the simulation. If you want older various you need to save them periodicly this will be covered next.
 
 - positions: x,y,z
 - velocities: vx,vy,vz
