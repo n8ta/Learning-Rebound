@@ -11,3 +11,6 @@ This is a set of tutorials designed to teach someone with no python or coding ex
 
 [Lesson 4](https://github.com/UncleIroh/Learning-Rebound/blob/master/Lesson4.md) - Simulation Archives
 
+[Lesson 5](https://github.com/UncleIroh/Learning-Rebound/blob/master/Lesson5.md) - Matplotlib Basics
+
+[Lesson 6](https://github.com/UncleIroh/Learning-Rebound/blob/master/Lesson6.md) - Graphing Rebound Data with Matplotlib
