@@ -18,5 +18,3 @@ To access simulations archives we use the .simulationArchive method of rebound. 
 archive = rebound.SimulationArchive("output.bin")
 sim1 = archive.getSimulation(t=1)
 ```
-
-
