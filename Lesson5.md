@@ -1,8 +1,9 @@
 # Lesson 5 Matplotlib Basics
 
-Matplotlib is a library for python that has a lot of graphing tools. To import the pyplot module of matplotlib type:
+Matplotlib is a library for python that has a lot of graphing tools. We're also going to import numpy (a math calculation library, adds sin,cos,sqrt, and others). Adding "as" after importing changes the name to reference the library. So numpy.sin() becomes np.sin() when you import as np.
 ```python
 import matplotlib.pyplot as plt
+import numpy as np
 ```
 Now when we type plt.show() that will be equivalent to matplotlib.pyplot.show(), this is just to save time. The key method of pyplot (or plt as we will be calling it) is .plot(). .plot() accepts two lists and a marker type. The first list is the xcords of xy cords and the second list of a list of y cords. The marker type is how the pts appear on the graph.
 
@@ -16,6 +17,20 @@ plt.show()
 ![matplotlib graph](https://github.com/UncleIroh/Learning-Rebound/blob/master/fig.png?raw=true)
 
 Next let's leanrn about axes, the key elements are labels, tick marks, titles, and bounds.
+The pyplot (plt) methods for modifying axes limits are .ylim(ymin,ymax) and .xlim(xmin,xman). Be careful when setting limits it can make importance data not visible, it's best to take a broad view and only set limits manually when you are sure you know what is going on. 
 ```python
-import numpy
-plt.plot(np.arange(.5,5,.1) #creates a list from .5 to 5 by increments of .1
+import numpy as np
+import matplotlib.pyplot as plt
+xlist = np.arange(.5,5,.1) #creates a list from .5 to 5 by increments of .1
+ylist = np.sin(xlist)
+plt.plot(xlist,ylist,"ro",markersize=6)
++plt.xlim(1,4)
++plt.ylim(-1,1)
++plt.title("This graph has bounds of [1,4]x[-1,1]")
++plt.xlabel("This is the xaxis")
++plt.ylabel("This is the yaxis")
+plt.show()
+![Comparison](https://raw.githubusercontent.com/UncleIroh/Learning-Rebound/master/Comparison.png)
+
+```
+Below are two images one without the lines with a (+) sign above and one without so you can see the difference with and without limits. 
