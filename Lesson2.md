@@ -9,8 +9,8 @@ M1 = 1
 M2 = 10
 q1 = M1/M2
 q2 = M2/M1
-e=1
-a=.5
+e=0
+a=5
 # Generation Initial Conditions
 RadiusOfM1 = (1.0-e)*a/(1.0+q1)
 VelocityOfM1 = (G*(M1+M2)/a)**.5 * (((1.0+e)/(1.0-e)))**.5 / (1.0+q1)
