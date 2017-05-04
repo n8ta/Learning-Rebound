@@ -12,5 +12,6 @@ plt.plot([1,2,3],[1,4,9],'rh',markersize=40)
 plt.show()
 ```
 ![matplotlib graph](https://github.com/UncleIroh/Learning-Rebound/blob/master/fig.png?raw=true)
+
 This prints the points (1,1) (2,4) and (3,9) with red hexagons.
 You can also change the marker size by adding the markersize=# argument to the .plot method.
