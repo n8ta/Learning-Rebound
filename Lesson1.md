@@ -12,6 +12,7 @@ M1 = 1
 M2 = 10
 q1 = M1/M2
 q2 = M2/M1
+a=5
 e=0 #Circular Orbit
 # Generation Initial Conditions
 RadiusOfM1 = (1.0-e)*a/(1.0+q1)
