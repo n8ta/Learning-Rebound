@@ -40,3 +40,5 @@ planet0.vx calls the vx variable of the planet0 object (of type rebound.simulati
 - radius: r (usually user defined not necessary for simulations without collisions)
 - last collision: lastcollision (time of last collisions)
 - various C pointers, rebound is built on C and so python objects are just wrappers for C objects, these variables return the C pointers (pointers point to a location in system memory (RAM) where an object is stored)
+
+[Continue to Lesson 4](https://github.com/UncleIroh/Learning-Rebound/edit/master/Lesson4.md)
