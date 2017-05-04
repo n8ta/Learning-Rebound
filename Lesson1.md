@@ -25,4 +25,4 @@ So now we have our initial conditions for a system that looks like this:
 
 ![2bodyimage](https://raw.githubusercontent.com/UncleIroh/Learning-Rebound/master/2Body%20copy.png)
 
-[Lesson 2](https://github.com/UncleIroh/Learning-Rebound/blob/master/Lesson2.md)
+[Continue to Lesson 2](https://github.com/UncleIroh/Learning-Rebound/blob/master/Lesson2.md)
