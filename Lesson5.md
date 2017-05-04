@@ -24,14 +24,14 @@ import matplotlib.pyplot as plt
 xlist = np.arange(.5,5,.1) #creates a list from .5 to 5 by increments of .1
 ylist = np.sin(xlist)
 plt.plot(xlist,ylist,"ro",markersize=6)
-+plt.xlim(1,4)
-+plt.ylim(-1,1)
-+plt.title("This graph has bounds of [1,4]x[-1,1]")
-+plt.xlabel("This is the xaxis")
-+plt.ylabel("This is the yaxis")
+#plt.xlim(1,4)
+#plt.ylim(-1,1)
+#plt.title("This graph has bounds of [1,4]x[-1,1]")
+#plt.xlabel("This is the xaxis")
+#plt.ylabel("This is the yaxis")
 plt.show()
 
 ```
-Below are two images one without the lines with a (+) sign above and one without so you can see the difference with and without limits. 
+Below are two images one without the commented lines and one with so you can see the difference with and without limits. 
 
 ![Comparison](https://raw.githubusercontent.com/UncleIroh/Learning-Rebound/master/comp.png)
