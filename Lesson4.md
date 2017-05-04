@@ -13,12 +13,11 @@ initSimulationArhive has a few inputs, the first a string in quotes is the name 
 sim.initSimulationArchive("output.bin",interval=10)
 ```
 
-To access simulations archives we use the .simulationArchive method of rebound. This method requires one input the name of the file to open. The SimulationArchive method returns a simulation archive object which in turn has methods. The most importance method of the archive object is its .getSimulation(t=x) method which returns a simulation object with all particles at time x.
+To access simulations archives we use the .simulationArchive method of rebound. This method requires one input the name of the file to open. The SimulationArchive method returns a simulation archive object which in turn has methods. The most importance method of the archive object is its .getSimulation(t=x) method which returns a simulation object with all particles at time x. If time x isn't close to a snapshot at which you saved (based on the interval) it may take time for rebound to integrate to that point.
 ```python
 archive = rebound.SimulationArchive("output.bin")
 sim1 = archive.getSimulation(t=1)
 ```
-
 By extracting info from simulations, basic lists, and the matplotlib (graphing) library we can create graphs of our particles locations/velocities/energy over time.
 
 [Continue to Lesson 5](https://github.com/UncleIroh/Learning-Rebound/edit/master/Lesson5.md)
