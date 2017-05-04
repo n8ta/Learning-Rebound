@@ -15,3 +15,4 @@ plt.show()
 This prints the points (1,1) (2,4) and (3,9) with red hexagons.
 You can also change the marker size by adding the markersize=# argument to the .plot method.
 
+a
