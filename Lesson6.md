@@ -1,7 +1,7 @@
 # Lesson 6 - Graphing Rebound Data with Matplotlib
 
 Okay next up we combine the graphing skills we learned with matplotlib to rebound data. To do this we are going to have to learn some more advanced python to automate this process. We'll be working with this simulation/archive:
-```
+```python
 import rebound
 G = 39.43163873354829472
 M1 = 0.000003002513826
@@ -23,4 +23,4 @@ tmax = 1
 sim.initSimulationArchive("output.bin",interval=.05)
 sim.integrate(tmax)
 ```
-This should be easily understood if you have completed the early lessons. It is an Earth/Sun orbit for   
+This should be easily understood if you have completed the early lessons. It is an Earth/Sun orbit for a time of 1 year with snapshots saved at .01year intervals.
