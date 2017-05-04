@@ -1,4 +1,4 @@
-# Lesson 0 - The Very Basics of Python
+# Lesson 0 - The Very Basics
 
 Python is a programming langauge that is designed to very straight forward to use. To run python you will need to install it. I recommend the anaconda python package manager, it comes preinstalled with most of what we'll be using.
 https://www.continuum.io/downloads. You will also need to install rebound. You can install rebound with the pip command:
@@ -28,8 +28,18 @@ python filename.py
 ```
 This will run your saved python script.
 
-That's all for now, see you in Lesson 1.
+Printing in python is crucial to debugging, to print in python add a line like this to a .py file and then run it.
+```python
+print(variable)
+```
 
-
+Another part of python that we will be using is lists. Lists are declared in this format [1,2,3] and you can access an item with list[#]. 
+```python
+listNameHere = ["item 0 this is a string because it's in quotes",10,15]
+print(listNameHere[0])
+```
+This will return  
+"item 0 this is a string because it's in quotes"
+Strings start at index 0, what we would normally think of as item 1 in a list is really string[0]. 
 
 [Continue to Lesson 1](https://github.com/UncleIroh/Learning-Rebound/blob/master/Lesson1.md)
