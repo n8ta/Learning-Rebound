@@ -10,6 +10,8 @@ Rebound can also be found here: https://github.com/hannorein/rebound
 
 To use python open a command prompt (windows) or terminal (mac) and type "conda install and type "python", if you installed this correctly your screen should show a >>> prompt and you can type python code directly into the termainal. This mode of writing python is mostly for testing and most coding is done in a .py file to make editting easier.
 
+To create a .py file you will need a text editor, my personal favorite is [Atom](https://atom.io/), followed by [Sublime Text 2](https://sublimetext.com/2), but you can also use a development enviornment or TextEdit (mac) or Notepad (win) if you want. You type your python code into the file, save it as a something.py and then run it.
+
 To run a .py file from your command line interfact (command prompt or terminal) you need to navigate to the directory containing the file. The basic navigation command is change directory or "cd". Here is how you use it:
 ```bash
 cd ..
@@ -21,8 +23,13 @@ cd directoryname
 (enter directory)
 
 Once you are in the directory of a .py file you've created you type:
+```bash
 python filename.py
-and the file with execute. That's all for now, see you in Lesson 1.
+```
+This will run your saved python script.
+
+That's all for now, see you in Lesson 1.
+
 
 
 [Continue to Lesson 1](https://github.com/UncleIroh/Learning-Rebound/blob/master/Lesson1.md)
