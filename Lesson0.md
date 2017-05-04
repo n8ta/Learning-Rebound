@@ -16,7 +16,7 @@ cd ..
 ```
 (go up one directory)
 ```bash
-cd /directoryname/ 
+cd directoryname
 ```
 (enter directory)
 
