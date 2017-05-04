@@ -45,7 +45,7 @@ One useful method of the particels object is the .calculate_orbit() method. It r
 ```python
 p0 = sim.particles[0]
 p1 = sim.particles[1]
-orbit = sim.particles[p0].calculate_orbit(p1)
+orbit = p0.calculate_orbit(p1)
 print(orbit.e)
 ```
 You can find a full list of orbital parameters like eccentricity (e) [here](https://rebound.readthedocs.io/en/latest/python_api.html#rebound.Orbit)
