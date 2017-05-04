@@ -2,7 +2,7 @@
 
 There are two many ways to analyze data, quanitatively (numerically) and qualitatively (visually in this context). We'll begin with the quanitative analysis becuase it is more straightforward to extract numberes than images from a simulation.
 
-The most importance way we measure a simulation is it's (Ef-E0)/E0 where Ef=Energy Final & E0=Energy Initial, the percentage chagne in energy. Ideally this value is sub 10^-8, but sub 10^-4 is sometimes acceptable. Rebound handles making sure your simulation conserves energy by slowing timesteps and even recalculating timesteps when energy errors are too large, this can slow down your simulations but a slower simulation is better than one with useless results.
+The most important way we measure a simulation is it's (Ef-E0)/E0 where Ef=Energy Final & E0=Energy Initial, the percentage chagne in energy. Ideally this value is sub 10^-8, but sub 10^-4 is sometimes acceptable. Rebound handles making sure your simulation conserves energy by slowing timesteps and even recalculating timesteps when energy errors are too large, this can slow down your simulations but a slower simulation is better than one with useless results.
 
 To calculate (Ef-E0)/E0 you need to store your initial energy at the beginning of the simulation, this is done with the simulation method.
 ```python
