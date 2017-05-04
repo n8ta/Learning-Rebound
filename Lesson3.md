@@ -24,3 +24,10 @@ After this runs we will receive a printout something like:
 ```
 (Ef-E0)/E0 = .000000342394
 ```
+
+Another way to get information from the simulation is to access particles objects within the simulation object.
+```
+planet0 = sim.particles[0]
+# Planet0 is now a particle object
+print(planet0.vx,planet0.vy,planet0,vz)
+# , is just like + it just adds space inbetween
