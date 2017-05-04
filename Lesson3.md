@@ -15,12 +15,12 @@ After your simulation has run or at any time during it) you would run calc energ
 E0 = sim.calculate_energy() 
 sim.integrate(tmax)
 Ef = sim.calculate_energy() 
-print("(Ef-E0)/E0= "+(E0+Ef)/E0)
+print("(Ef-E0)/E0 = "+(E0+Ef)/E0)
 ```
 A quick note on printing/concatonation (combining):
 To print in python type print() you can put variables like E0 in the () to print them, you can also chain text (strings is the technical term) with variables using the + operator. Remember strings go in "" and variables do not.
 
 After this runs we will receive a printout something like:
 ```
-(Ef-E0)/E0=.000000342394
+(Ef-E0)/E0 = .000000342394
 ```
