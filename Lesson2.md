@@ -59,3 +59,5 @@ The simulation will then run until completion. This can sometimes take awhile, t
 - Number of bodies (more bodies take more time than fewer)
 - Speed of bodies (faster takes more time than slower)
 - Closeness of bodies (closer takes more time than farther)
+
+[Continue to Lesson 3](https://github.com/UncleIroh/Learning-Rebound/blob/master/Lesson3.md)
