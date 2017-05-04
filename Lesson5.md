@@ -35,4 +35,9 @@ plt.show()
 Below are two images one without the commented lines and one with so you can see the difference with and without limits/titles.
 ![Comparison](https://raw.githubusercontent.com/UncleIroh/Learning-Rebound/master/comp.png)
 
+Final note for matplotlib, sometimes your axes can make your images looked warped. I recommend adding:
+```python
+plt.axis('equal')
+```
+to every plot before displaying it.
 [Continue to Lesson 6](https://github.com/UncleIroh/Learning-Rebound/blob/master/Lesson6.md)
