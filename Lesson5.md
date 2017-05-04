@@ -40,4 +40,5 @@ Final note for matplotlib, sometimes your axes can make your images looked warpe
 plt.axis('equal')
 ```
 to every plot before displaying it.
+
 [Continue to Lesson 6](https://github.com/UncleIroh/Learning-Rebound/blob/master/Lesson6.md)
