@@ -34,4 +34,4 @@ plt.show()
 ```
 Below are two images one without the lines with a (+) sign above and one without so you can see the difference with and without limits. 
 
-![Comparison](https://raw.githubusercontent.com/UncleIroh/Learning-Rebound/master/Comparison.png)
+![Comparison](https://raw.githubusercontent.com/UncleIroh/Learning-Rebound/master/comp.png)
