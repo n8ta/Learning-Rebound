@@ -30,7 +30,8 @@ plt.plot(xlist,ylist,"ro",markersize=6)
 +plt.xlabel("This is the xaxis")
 +plt.ylabel("This is the yaxis")
 plt.show()
-![Comparison](https://raw.githubusercontent.com/UncleIroh/Learning-Rebound/master/Comparison.png)
 
 ```
 Below are two images one without the lines with a (+) sign above and one without so you can see the difference with and without limits. 
+
+![Comparison](https://raw.githubusercontent.com/UncleIroh/Learning-Rebound/master/Comparison.png)
