@@ -41,4 +41,13 @@ planet0.vx calls the vx variable of the planet0 object (of type rebound.simulati
 - last collision: lastcollision (time of last collisions)
 - various C pointers, rebound is built on C and so python objects are just wrappers for C objects, these variables return the C pointers (pointers point to a location in system memory (RAM) where an object is stored)
 
+One useful method of the particels object is the .calculate_orbit() method. It requires another particle as input and returns an orbit object with all orbital parameters.
+```python
+p0 = sim.particles[0]
+p1 = sim.particles[1]
+orbit = sim.particles[p0].calculate_orbit(p1)
+print(orbit.e)
+```
+You can find a full list of orbital parameters like eccentricity (e) [here](https://rebound.readthedocs.io/en/latest/python_api.html#rebound.Orbit)
+
 [Continue to Lesson 4](https://github.com/UncleIroh/Learning-Rebound/edit/master/Lesson4.md)
