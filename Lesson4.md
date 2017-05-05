@@ -1,7 +1,7 @@
 # Lesson 4 - Simulation Archives
 ## Lesson 4 Video
 [![Alt text](/L4.png)](https://www.youtube.com/watch?v=iVEDWsfICPA)
-
+## Archives
 
 Another way to analyze rebound is using simulation archives. Simulation archives are binary files that store all the information about MULTIPLE states of a simulation. They can be used to save a state for example 1 year of a 100 year simulation so you can go back and inspect the data over time. Archives are also files so you can save them and look at their contents later unlike a script that runs once and then is no longer accessible. 
 
