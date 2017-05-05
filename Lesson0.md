@@ -1,4 +1,4 @@
-# Lesson 0 - The Very Basics
+ # Lesson 0 - The Very Basics
 ## Lesson 0 Video
 [![Alt text](/L0.png)](https://www.youtube.com/watch?v=6MvrhPKIt6s&feature=youtu.be)
 ## Installation
@@ -52,4 +52,4 @@ print("Most lines are run in python")
 # Commenting your code is useful to explain what it does when you will be sharing it with others.
 # It is bad form to publish uncommented code.
 ```
-[Continue to Lesson 1](https://github.com/UncleIroh/Learning-Rebound/blob/master/Lesson1.md)
+[Continue to Lesson 1](/Lesson1.md)
