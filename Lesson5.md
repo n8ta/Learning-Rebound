@@ -43,4 +43,4 @@ plt.axis('equal')
 ```
 to every plot that has positions on the and x y axes, on time vs anything plots this is not necessary.
 
-[Continue to Lesson 6](/Lesson6.md)
+[Continue to Lesson 6](/Lesson6.md) 
