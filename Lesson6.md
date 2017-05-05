@@ -1,5 +1,7 @@
 # Lesson 6 - Graphing Rebound Data with Matplotlib
-
+## Lesson 6 Video
+[![Alt text](/L6.png)](https://www.youtube.com/watch?v=iiFHiK4mug0)
+## Graphing
 Okay next up we combine the graphing skills we learned with matplotlib to rebound data. To do this we are going to have to learn some more advanced python to automate this process. We'll be working with this simulation/archive:
 ```python
 import rebound
