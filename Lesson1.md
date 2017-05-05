@@ -1,6 +1,6 @@
 # Lesson 1 - The physics of generating initial conditions for orbits
 ## Lesson 1 Video
-![Lesson 1 Video](https://github.com/UncleIroh/Learning-Rebound/blob/master/L1.png?raw=true)
+[]![Lesson 1 Video](https://github.com/UncleIroh/Learning-Rebound/blob/master/L1.png?raw=true)(https://www.youtube.com/upload)
 So let's start with the math of generaing orbits.
 
 
