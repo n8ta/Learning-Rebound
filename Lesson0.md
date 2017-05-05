@@ -1,7 +1,6 @@
 # Lesson 0 - The Very Basics
 ## Lesson 0 Video
 [![Alt text](/L0.png)](https://www.youtube.com/watch?v=6MvrhPKIt6s&feature=youtu.be)
-
 ## Installation
 Python is a programming langauge that is designed to very straight forward to use. To run python you will need to install it. I recommend the anaconda python package manager, it comes preinstalled with most of what we'll be using.
 https://www.continuum.io/downloads. You will also need to install rebound. You can install rebound with the pip command:
