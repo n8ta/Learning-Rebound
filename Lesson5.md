@@ -1,4 +1,6 @@
 # Lesson 5 Matplotlib Basics
+## Lesson 5 Video
+[![Alt text](/L5.png)](https://www.youtube.com/watch?v=Ziq7v-2wTSY)
 
 Matplotlib is a library for python that has a lot of graphing tools. We're also going to import numpy (a math calculation library, adds sin,cos,sqrt, and others). Adding "as" after importing changes the name to reference the library. So numpy.sin() becomes np.sin() when you import as np.
 ```python
