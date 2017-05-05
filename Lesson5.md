@@ -20,7 +20,7 @@ plt.show()
 
 Next let's leanrn about axes, the key elements are labels, tick marks, titles, and bounds.
 The pyplot (plt) methods for modifying axes limits are .ylim(ymin,ymax) and .xlim(xmin,xman). Be careful when setting limits it can make importance data not visible, it's best to take a broad view and only set limits manually when you are sure you know what is going on. To add a title to your graph use the .title() method, it accepts a string as do .xlabel() and .ylabel() which label the x and y axes.
-```python
+```python 
 import numpy as np
 import matplotlib.pyplot as plt
 xlist = np.arange(.5,5,.1) #creates a list from .5 to 5 by increments of .1
