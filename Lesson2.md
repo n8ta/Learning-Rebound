@@ -1,5 +1,7 @@
 # Lesson 2 - Setting up a Rebound Simulation
-
+## Lesson 2 Video
+[![Alt text](/L2.png)](https://www.youtube.com/watch?v=7z-6_2lDpH0&feature=youtu.be
+)
 Using the code from Lesson 1 that generated initial conditions we will create a rebound simulation with those two objects.
 We will be assuming these initial values are know in this lesson:
 ```python
