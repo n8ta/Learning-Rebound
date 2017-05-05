@@ -1,4 +1,7 @@
 # Lesson 3 - Analyzing Rebound Data
+## Lesson 3 Video
+[![Alt text](/L3.png)](https://www.youtube.com/watch?v=yKZ5OdaZPiI)
+
 
 There are two many ways to analyze data, quanitatively (numerically) and qualitatively (visually in this context). We'll begin with the quanitative analysis becuase it is more straightforward to extract numberes than images from a simulation.
 
