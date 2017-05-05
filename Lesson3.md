@@ -52,4 +52,4 @@ print(orbit.e)
 ```
 You can find a full list of orbital parameters like eccentricity (e) [here](https://rebound.readthedocs.io/en/latest/python_api.html#rebound.Orbit)
 
-[Continue to Lesson 4](https://github.com/UncleIroh/Learning-Rebound/edit/master/Lesson4.md)
+[Continue to Lesson 4](/Lesson4.md)
