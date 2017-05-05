@@ -30,7 +30,7 @@ dummyVar = [1,2,3,4]
 for item in dummyVar:
   print(item*2)
 ```
-This returns 1,4,6,8.
+This returns 1,4,6,8
 Now we will apply this principle to get data through tmax. We will use np.arange to again generate a list of time we want to sample and then get simulation data for each time. We will create empty lists for the x and y positions of the earth and sun and put data in each. With these we can create plots of their positions at various times. You create an empty list like this: x = []. We also are going to import the simulation archive.
 
 So here are the lists we are going to fill:
