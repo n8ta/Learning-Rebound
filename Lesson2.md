@@ -62,4 +62,4 @@ The simulation will then run until completion. This can sometimes take awhile, t
 - Speed of bodies (faster takes more time than slower)
 - Closeness of bodies (closer takes more time than farther)
 
-[Continue to Lesson 3](https://github.com/UncleIroh/Learning-Rebound/blob/master/Lesson3.md)
+[Continue to Lesson 3](/Lesson3.md)
