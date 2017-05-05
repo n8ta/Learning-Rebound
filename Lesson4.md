@@ -23,5 +23,5 @@ sim1 = archive.getSimulation(t=1)
 ```
 By extracting info from simulations, basic lists, and the matplotlib (graphing) library we can create graphs of our particles locations/velocities/energy over time.
 
-[Continue to Lesson 5](https://github.com/UncleIroh/Learning-Rebound/edit/master/Lesson5.md)
+[Continue to Lesson 5](/Lesson5.md)
 
