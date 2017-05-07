@@ -1,7 +1,7 @@
 # Learning-Rebound
 This is a set of tutorials designed to teach someone with no python or coding experience how to run n-body simulations with rebound. You can follow the videos or read the guides or do both.
 
-### ![Rebound Tutorials Playlist](https://www.youtube.com/watch?v=pO_BRjKrZjw&list=PL57fZi3Si5IcBp22HiI8InQhkeWDBm8-h)
+### ![youtube logo](/icon.png)![Rebound Tutorials Playlist](https://www.youtube.com/watch?v=pO_BRjKrZjw&list=PL57fZi3Si5IcBp22HiI8InQhkeWDBm8-h)
 
 [Lesson 0](/Lesson0.md) - Getting started
 
