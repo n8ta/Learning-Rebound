@@ -1,7 +1,7 @@
 # Lesson 3 - Analyzing Rebound Data
 ## Lesson 3 Video
 [![Lesson3Video](/L31.png)](https://www.youtube.com/watch?v=yKZ5OdaZPiI)
-## Analysis
+## Quantitative Energy Analysis
 There are two many ways to analyze data, quanitatively (numerically) and qualitatively (visually in this context). We'll begin with the quanitative analysis becuase it is more straightforward to extract numberes than images from a simulation.
 
 The most important way we measure a simulation is it's (Ef-E0)/E0 where Ef=Energy Final & E0=Energy Initial, the percentage chagne in energy. Ideally this value is sub 10^-8, but sub 10^-4 is sometimes acceptable. Rebound handles making sure your simulation conserves energy by slowing timesteps and even recalculating timesteps when energy errors are too large, this can slow down your simulations but a slower simulation is better than one with useless results.
@@ -19,6 +19,8 @@ sim.integrate(tmax)
 Ef = sim.calculate_energy() 
 print("(Ef-E0)/E0 = "+(E0+Ef)/E0)
 ```
+
+### A Sidenote on Strings and Python
 A quick note on printing/concatonation (combining):
 To print in python type print() you can put variables like E0 in the () to print them, you can also chain text (strings is the technical term) with variables using the + operator. Remember strings go in "" and variables do not.
 
@@ -26,7 +28,7 @@ After this runs we will receive a printout something like:
 ```
 (Ef-E0)/E0 = .000000342394
 ```
-
+## Accessing Variables and Methods of Classes (like the particles class)
 Another way to get information from the simulation is to access particles objects within the simulation object.
 ```
 planet0 = sim.particles[0]
