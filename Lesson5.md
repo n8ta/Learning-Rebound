@@ -7,7 +7,8 @@ Matplotlib is a library for python that has a lot of graphing tools. We're also 
 import matplotlib.pyplot as plt
 import numpy as np
 ```
-Now when we type plt.show() that will be equivalent to matplotlib.pyplot.show(), this is just to save time. The key method of pyplot (or plt as we will be calling it) is .plot(). .plot() accepts two lists and a marker type. The first list is the xcords of xy cords and the second list of a list of y cords. The marker type is how the pts appear on the graph.
+## Using matplotlib.pyplot.plot (plt.plot)
+Now for instance when we type plt.show() that will be equivalent to matplotlib.pyplot.show(), this is just to save time. The key method of pyplot (or plt as we will be calling it) is .plot(). .plot() accepts two lists and a marker type. The first list is the xcords of xy cords and the second list of a list of y cords. The marker type is how the pts appear on the graph.
 
 Marker types are a combination of color code and shape code, colors are red (r) green (g) blue (b) and others and shapes are circle (o) cross (+) hexagon (h). There are tons of these shapes/colors read about that [here](https://matplotlib.org/api/markers_api.html#module-matplotlib.markers). This prints the points (1,1) (2,4) and (3,9) with red hexagons.
 You can also change the marker size by adding the markersize=# argument to the .plot method.
@@ -17,7 +18,7 @@ plt.plot([1,2,3],[1,4,9],'rh',markersize=40)
 plt.show()
 ```
 ![matplotlib graph](https://github.com/UncleIroh/Learning-Rebound/blob/master/fig.png?raw=true)
-
+## Axes
 Next let's leanrn about axes, the key elements are labels, tick marks, titles, and bounds.
 The pyplot (plt) methods for modifying axes limits are .ylim(ymin,ymax) and .xlim(xmin,xman). Be careful when setting limits it can make importance data not visible, it's best to take a broad view and only set limits manually when you are sure you know what is going on. To add a title to your graph use the .title() method, it accepts a string as do .xlabel() and .ylabel() which label the x and y axes.
 ```python 
@@ -36,7 +37,7 @@ plt.show()
 ```
 Below are two images one without the commented lines and one with so you can see the difference with and without limits/titles.
 ![Comparison](https://raw.githubusercontent.com/UncleIroh/Learning-Rebound/master/comp.png)
-
+### Axes and Warping
 Final note for matplotlib, sometimes your axes can make your images looked warped. I recommend adding:
 ```python
 plt.axis('equal')
