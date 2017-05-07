@@ -1,8 +1,8 @@
 # Lesson 6 - Graphing Rebound Data with Matplotlib
 ## Lesson 6 Video
 [![Alt text](/L6.png)](https://www.youtube.com/watch?v=iiFHiK4mug0)
-## Graphing
-Okay next up we combine the graphing skills we learned with matplotlib to rebound data. To do this we are going to have to learn some more advanced python to automate this process. We'll be working with this simulation/archive:
+## The Simulation
+Okay next up we combine the graphing skills we learned with matplotlib to rebound data. To do this we are going to have to learn some more advanced python to automate this process. We'll be working with this simulation/archive. It's a simulation of the Earth/Sun orbit with a higher than normal ecc.
 ```python
 import rebound
 G = 39.43163873354829472
@@ -25,8 +25,9 @@ tmax = 1
 sim.initSimulationArchive("output.bin",interval=.05)
 sim.integrate(tmax)
 ```
-This is a simulation of the Earth/Sun orbit with a higher than normal ecc.
-Next we are going to extract data from this archive and store it in lsits to be graphed with matplotlib. We will create a dummy variable z and increment as we move forward through time. We are going to use a for loop, a for loop is a loop that repeats its code for each item in a list/array. Within the for loop you can access the current item in the list with whatever name you assign after "for". In this case I use "item" it could be anything.
+
+## For Loops
+We are going to extract data from this archive and store it in lists to be graphed with matplotlib. We We are going to use a for loop, a for loop is a loop that repeats its code for each item in a list/array. Within the for loop you can access the current item in the list with whatever name you assign after "for". In this case I use "item" it could be anything.
 ```
 dummyVar = [1,2,3,4]
 for item in dummyVar:
@@ -58,7 +59,7 @@ for item in time:
     sunYpos.append(sim.particles[1].y)
 ```
 Now for each time in our list we get a new simulation at the time "item" which refers to an entry in the time list and extract position data from it. We could easily get eccentricity info, velocities, accelerations, anything we can get from a normal simulation inside this for loop.
-
+## Plotting Data
 So let's inspect these lists by plotting them, make sure you have already
 ```python
 import matplotlib.pyplot as plt
