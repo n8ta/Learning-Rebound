@@ -16,3 +16,5 @@ This is a set of tutorials designed to teach someone with no python or coding ex
 [Lesson 5](/Lesson5.md) - Matplotlib Basics
 
 [Lesson 6](/Lesson6.md) - Graphing Rebound Data with Matplotlib
+
+[Lesson 7](/Lesson7.md) - Animating Rebound Data
