@@ -84,4 +84,4 @@ plt.ylabel("|Earth Velocity| [AU/yr]")
 plt.title("Earth Velocity over Time")
 plt.show()
 ```
-![EarthV](https://raw.githubusercontent.com/UncleIroh/Learning-Rebound/master/earthV.png)
+![EarthV](/earthV.png)
