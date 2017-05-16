@@ -72,7 +72,7 @@ plt.axis('equal')
 plt.show()
 ```
 This shows us the orbits on the scale the earth, because we haven't set axes it zooms out to show everything.
-![EarthSunOrbit](https://github.com/UncleIroh/Learning-Rebound/blob/master/earthsunorbit.png)
+![EarthSunOrbit](/earthsunorbit.png)
 
 As a final exercise lets take a look at the velocity data we saved. As we used an eccentricity of .4 we would expect the earth to be moving fastest at the perigee (closest to sun) and slowest at the apogee (farthest). So we're going to graph the velocity data and the time data. Try to do this yourself first before looking at how I do it, you have all the tools you need to do this.
 
