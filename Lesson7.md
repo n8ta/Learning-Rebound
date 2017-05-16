@@ -3,16 +3,17 @@
 ## Lessons 7 Videos
 [![Alt text](/L6.png)](https://www.youtube.com/watch?v=iiFHiK4mug0)
 
-## Animating
+## Overview
 We are going to be using matplotlib.animation.FuncAnimation to animate our data. This method creates an an animation that runs a function every interval=# milliseconds for frames=# of frames. You begin by creating your matplotlib figure, I'll be using a 6x6 figure. I also adjust some of the properties of the figure with fig.subplots_adjust to make sure all axes labels are readable. You can play with these options by clicking this button in any matplotlib plot and then adjusting your code to match.
 
+## Figure Creation
 ![button](/button.jpg)
 ```python
 import matplotlib.pyplot as plt
 fig = plt.figure(figsize=(6,6))
 fig.subplots_adjust(left=.12, bottom=.1, right=.96, top=.9, wspace=.20, hspace=.27)
 ```
-
+## Subplots
 We also need to create our axes, we haven't always done this in the past because we let matplotlib handle the axes as we didn't need to adjust them. To create an axis object.
 
 ```python
@@ -26,6 +27,8 @@ plt.subplot(212)
 plt.plot([2],[2],'ro')
 ```
 In this case plt.subplot() chagnes your active subplot plots and then changes again. We won't be using subplots in this tutorial but everything we do could be done in subplots.
+
+## Creating the Animation
 
 So to create our animation object we use matplotlib.animation.FuncAnimation
 ```
@@ -53,6 +56,8 @@ def animate(i):
 ```
 Making the skip number larger will skip frames. If you use a skip you will need to divide your frames=x by skip when you create the FuncAnimation so you don't keep animating after you run out of data.
 
+## Showcase Files/ Animation
+
 Putting it all together we woud have one file called Binary.py and another called AnimBinary.py. Here are example files for a double binary I created (a binary orbitting a binary) it incorporates everything we did just for more masses and it applys the initial condition generation we learned twice once for the small and once for the large binaries.
 
 [binary.py](/binary.py )
@@ -61,5 +66,5 @@ Putting it all together we woud have one file called Binary.py and another calle
 
 This produces the following animation:
 
-![in.gif](/in.gif)
+![binary.gif](/binary.gif)
 
