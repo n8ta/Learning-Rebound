@@ -5,7 +5,7 @@
 
 ## Animating
 We are going to be using matplotlib.animation.FuncAnimation to animate our data. This method creates an an animation that runs a function every interval=# milliseconds for frames=# of frames. You begin by creating your matplotlib figure, I'll be using a 6x6 figure. I also adjust some of the properties of the figure with fig.subplots_adjust to make sure all axes labels are readable. You can play with these options by clicking this button in any matplotlib plot.
-![button](https://github.com/UncleIroh/Learning-Rebound/blob/master/button.jpg)
+![button](/button.jpg)
 ```python
 import matplotlib.pyplot as plt
 fig = plt.figure(figsize=(6,6))
