@@ -64,4 +64,5 @@ Putting it all together we woud have one file called Binary.py and another calle
 This produces the following animation:
 
 ![binary.gif](/binary.gif)
+
 *The real animation is much longer I just can't be bothered to converted a 3 minute movie to a gif.*
