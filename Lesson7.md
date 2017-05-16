@@ -54,5 +54,5 @@ def animate(i):
 Making the skip number larger will skip frames. If you use a skip you will need to divide your frames=x by skip when you create the FuncAnimation so you don't keep animating after you run out of data.
 
 Putting it all together we woud have one file called Binary.py and another called AnimBinary.py. Here are example files for a double binary I created (a binary orbitting a binary) it incorporates everything we did just for more masses and it applys the initial condition generation we learned twice once for the small and once for the large binaries.
-![binary.py](/binary.py )
-![animBinary.py](/animBinary.py )
+[binary.py](/binary.py )
+[animBinary.py](/animBinary.py )
